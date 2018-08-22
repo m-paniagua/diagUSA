@@ -36,7 +36,7 @@ body {
 }
 
 .breadcrumb-bg {
-    background-color: #3498db;
+    background-color: #4ADFCC;
 }
 
 ol.breadcrumb {
@@ -138,7 +138,7 @@ ol.breadcrumb li a {
     align-items: center;
     justify-content: center;
     background-color: white;
-    border-radius: 15px;
+    border-radius: .25rem;
 }
 
 .about-pic {
@@ -150,11 +150,11 @@ ol.breadcrumb li a {
 }
 
 #about .card {
-    border-radius: 15px;
+    border-radius: .25rem;
 }
 
 #about img {
-    border-radius: 15px;
+    border-radius: .25rem;
 }
 
 /******** ****** ********/
@@ -198,7 +198,7 @@ ol.breadcrumb li a {
 .quote-box {
     margin: 0 auto;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: .25rem;
     /* background-color: #00d1b2; */
     color: white;
     max-width: 750px;
@@ -381,7 +381,7 @@ footer h3:after {
     background-color: #3498db;
     /* background-color: #fff; */
     box-shadow: 4px 4px 4px 0 hsla(0, 0%, 0%, .2);
-    border-radius: 15px;
+    border-radius: .25rem;
 }
 
 #contact-form .flex-container {
@@ -406,8 +406,8 @@ footer h3:after {
     background-color: white;
     min-height: 450px;
     padding: 15px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
 }
 
 .contact-info {
@@ -426,5 +426,7 @@ footer h3:after {
 }
 
 .card-header {
-    background-color: #00d1b2;
+    /* background-color: #00d1b2; */
+    background-color: #39579a;
+    text-align: center;
 }
