@@ -127,11 +127,12 @@ ol.breadcrumb li a {
 
 #about {
     background: #ddd;
+    padding: 75px 0;
 }
 
-#about .flex-container {
+/* #about .flex-container {
     min-height: 100vh;
-}
+} */
 
 .about-sec {
     display: flex;
@@ -163,9 +164,12 @@ ol.breadcrumb li a {
 
 /******** ****** ********/
 
-#skills .flex-container {
-    min-height: 100vh;
+#skills {
+    padding: 75px 0;
 }
+/* #skills .flex-container {
+    min-height: 100vh;
+} */
 
 #skills .row {
     width: 100%;
@@ -188,16 +192,16 @@ ol.breadcrumb li a {
 #quotes {
     /* background-color: #4ADFCC; */
     background-color: #00d1b2;
-    padding: 20px 0;
+    padding: 75px 0;
 }
 
-#quotes .flex-container {
+/* #quotes .flex-container {
     min-height: 450px;
-}
+} */
 
 .quote-box {
     margin: 0 auto;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: .25rem;
     /* background-color: #00d1b2; */
     color: white;
@@ -229,12 +233,17 @@ ol.breadcrumb li a {
 
 /******** ******** ********/
 
-#training .flex-container {
-    min-height: 100vh;
+#training {
+    padding: 75px 0;
 }
 
-.training-accordion {
-    padding: 15px;
+/* #training .flex-container {
+    min-height: 100vh;
+} */
+
+
+#training img {
+    max-height: 400px;
 }
 
 /******** ********* ********/
@@ -249,11 +258,12 @@ ol.breadcrumb li a {
     background: linear-gradient( rgba(52, 152, 219, 0.9), rgba(29, 111, 165, .9)), url(../img/events/12.JPG) no-repeat center center fixed;
     background-size: cover;
     color: #eee;
+    padding: 75px 0;
 }
 
-#contact .flex-container {
+/* #contact .flex-container {
     min-height: 450px;
-}
+} */
 
 #contact .sec-heading:after {
     background: #00d1b2;
@@ -276,9 +286,12 @@ ol.breadcrumb li a {
 
 /******** ******** ********/
 
-#partners .flex-container {
-    min-height: 650px;
+#partners {
+    padding: 75px 0;
 }
+/* #partners .flex-container {
+    min-height: 650px;
+} */
 
 .affiliates {
     display: flex;
@@ -352,6 +365,10 @@ footer h3:after {
     color: #3498db;
 }
 
+.fab:hover {
+    color: white;
+}
+
 .facebook:hover {
     color: #39579a;
 }
@@ -378,7 +395,7 @@ footer h3:after {
     min-height: 450px;
     max-width: 992px;
     margin: 0 auto;
-    background-color: #3498db;
+    background-color: #39579a;
     /* background-color: #fff; */
     box-shadow: 4px 4px 4px 0 hsla(0, 0%, 0%, .2);
     border-radius: .25rem;
