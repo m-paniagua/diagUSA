@@ -127,7 +127,7 @@ ol.breadcrumb li a {
 
 #about {
     background: #ddd;
-    padding: 75px 0;
+    padding: 75px 10px;
 }
 
 /* #about .flex-container {
@@ -192,7 +192,7 @@ ol.breadcrumb li a {
 #quotes {
     /* background-color: #4ADFCC; */
     background-color: #00d1b2;
-    padding: 75px 0;
+    padding: 55px 0;
 }
 
 /* #quotes .flex-container {
@@ -201,13 +201,43 @@ ol.breadcrumb li a {
 
 .quote-box {
     margin: 0 auto;
-    /* padding: 20px; */
+    padding: 20px 0;
     border-radius: .25rem;
     /* background-color: #00d1b2; */
     color: white;
     max-width: 750px;
     min-height: 350px;
 }
+
+@media only screen and (max-width: 768px) {
+   .quote-box {
+       min-height: 400px;
+   }
+}
+
+@media only screen and (max-width: 535px) {
+    .quote-box {
+        min-height: 450px;
+    }
+ }
+
+ @media only screen and (max-width: 470px) {
+    .quote-box {
+        min-height: 500px;
+    }
+ }
+
+ @media only screen and (max-width: 380px) {
+    .quote-box {
+        min-height: 550px;
+    }
+ }
+
+ @media only screen and (max-width: 348px) {
+    .quote-box {
+        min-height: 575px;
+    }
+ }
 
 .quote-box>hr {
     border-top: 2px solid #4ADFCC;
