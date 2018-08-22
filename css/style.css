@@ -58,7 +58,7 @@ ol.breadcrumb li a {
     /* background: rgba(255, 255, 255, .7); */
     /* background: #fff; */
     /* position: absolute; */
-    transition: 750ms ease;
+    transition: 900ms ease;
     background: transparent;
     border: none !important;
     width: 100%;
@@ -167,6 +167,7 @@ ol.breadcrumb li a {
 #skills {
     padding: 75px 0;
 }
+
 /* #skills .flex-container {
     min-height: 100vh;
 } */
@@ -210,34 +211,34 @@ ol.breadcrumb li a {
 }
 
 @media only screen and (max-width: 768px) {
-   .quote-box {
-       min-height: 400px;
-   }
+    .quote-box {
+        min-height: 400px;
+    }
 }
 
 @media only screen and (max-width: 535px) {
     .quote-box {
         min-height: 450px;
     }
- }
+}
 
- @media only screen and (max-width: 470px) {
+@media only screen and (max-width: 470px) {
     .quote-box {
         min-height: 500px;
     }
- }
+}
 
- @media only screen and (max-width: 380px) {
+@media only screen and (max-width: 380px) {
     .quote-box {
         min-height: 550px;
     }
- }
+}
 
- @media only screen and (max-width: 348px) {
+@media only screen and (max-width: 348px) {
     .quote-box {
         min-height: 575px;
     }
- }
+}
 
 .quote-box>hr {
     border-top: 2px solid #4ADFCC;
@@ -270,7 +271,6 @@ ol.breadcrumb li a {
 /* #training .flex-container {
     min-height: 100vh;
 } */
-
 
 #training img {
     max-height: 400px;
@@ -319,6 +319,7 @@ ol.breadcrumb li a {
 #partners {
     padding: 75px 0;
 }
+
 /* #partners .flex-container {
     min-height: 650px;
 } */
