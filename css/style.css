@@ -428,8 +428,6 @@ footer h3:after {
     margin: 0 auto;
     background-color: #39579a;
     /* background-color: #fff; */
-    box-shadow: 4px 4px 4px 0 hsla(0, 0%, 0%, .2);
-    border-radius: .25rem;
 }
 
 #contact-form .flex-container {
@@ -441,6 +439,12 @@ footer h3:after {
         position: relative;
         margin-bottom: -50px;
         top: -100px;
+        box-shadow: 4px 4px 4px 0 hsla(0, 0%, 0%, .2);
+        border-radius: .25rem;
+    }
+    .contact-form {
+        border-top-left-radius: .25rem;
+        border-bottom-left-radius: .25rem;
     }
 }
 
@@ -454,8 +458,6 @@ footer h3:after {
     background-color: white;
     min-height: 450px;
     padding: 15px;
-    border-top-left-radius: .25rem;
-    border-bottom-left-radius: .25rem;
 }
 
 .contact-info {

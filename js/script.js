@@ -1,4 +1,10 @@
 $(document).ready(function () {
+    AOS.init({
+        once: true,
+        duration: 3000,
+        ease: 'ease-out'
+    })
+
     var scroll_start = 0;
     var startchange = $('#about');
     var links = $('.navbar-scroll .navbar-nav .nav-link')
