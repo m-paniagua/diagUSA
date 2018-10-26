@@ -549,7 +549,7 @@ footer p {
     justify-content: center;
     align-items: center;
     background: linear-gradient(#39579a, #0077b5);
-    color: #ddd;
+    color: #fff;
     text-shadow: 2px 2px 8px rgba(255, 255, 255, .1);
 }
 
