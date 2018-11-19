@@ -11,6 +11,40 @@ body {
     flex-direction: column;
 }
 
+/* buttons */
+
+.btn-outline-success {
+    border-color: #00d1b2;
+    color: #00d1b2;
+}
+
+.btn-outline-success:hover {
+    background-color: #00d1b2;
+    border-color: #00d1b2;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled):active {
+    color: white;
+    background: #00d1b2;
+    border-color: #00d1b2;
+}
+
+.btn-outline-primary {
+    border-color: #3498db;
+    color: #3498db;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+    color: white;
+    background: #3498db;
+    border-color: #3498db;
+}
+
 .sec-heading {
     font-weight: 700;
     position: relative;
@@ -120,7 +154,7 @@ ol.breadcrumb li.active {
 /******* ********* *******/
 
 #jumbotron {
-    background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url(../img/bg12.jpg) no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url(../img/bg11.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -130,14 +164,24 @@ ol.breadcrumb li.active {
 
 .jumbo-content {
     background-color: #fff;
-    min-height: 650px;
+    /* min-height: 650px; */
     min-width: 100%;
+    padding-top: 45px;
+    padding-bottom: 15px;
     border-radius: .25rem;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .jumbo-content img {
     align-self: flex-end;
+}
+
+.jumbo-content h1 {
+    font-weight: 900;
+    font-size: 5em;
+    text-align: center;
 }
 
 /******** ***** ********/
@@ -208,7 +252,7 @@ ol.breadcrumb li.active {
 
 /******** ****** ********/
 
-/******** quptes ********/
+/******** quotes ********/
 
 /******** ****** ********/
 
@@ -487,8 +531,8 @@ footer p {
 @media only screen and (min-width: 992px) {
     #contact-form {
         position: relative;
-        margin-bottom: -50px;
-        top: -100px;
+        margin-bottom: -100px;
+        top: -300px;
         box-shadow: 4px 4px 4px 0 hsla(0, 0%, 0%, .2);
         border-radius: .25rem;
     }
