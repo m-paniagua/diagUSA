@@ -11,11 +11,11 @@ $(document).ready(function () {
         return false;
     });
 
-    AOS.init({
-        once: true,
-        duration: 3000,
-        ease: 'ease-out'
-    })
+    // AOS.init({
+    //     once: true,
+    //     duration: 3000,
+    //     ease: 'ease-out'
+    // })
 
     var scroll_start = 0;
     var startchange = $('#jumbotron');
