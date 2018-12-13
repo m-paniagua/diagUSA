@@ -53,6 +53,7 @@ body {
     font-size: 55px;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .sec-heading:after {
@@ -473,6 +474,12 @@ footer p {
     justify-content: center;
 }
 
+@media only screen and (max-width: 768px) {
+    .footer-center {
+        margin-bottom: 25px;
+    }
+}
+
 a.scrollup {
     /* color: #fff;
     background: #39579a; */
@@ -484,8 +491,8 @@ a.scrollup {
     text-align: center;
     text-decoration: none;
     position: fixed;
-    bottom: 30px;
-    right: 40px;
+    bottom: 20px;
+    right: 0px;
     opacity: 0, 5;
     border-radius: 50%;
     z-index: 999;
@@ -633,4 +640,15 @@ a.scrollup:hover {
 
 .card-border {
     border-left: #39579a 10px solid;
+}
+
+.training-card {
+    display: flex;
+    align-items: stretch;
+}
+
+@media only screen and (max-width: 768px) {
+    .training-card {
+        margin-bottom: 25px;
+    }
 }
