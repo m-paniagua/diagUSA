@@ -86,7 +86,7 @@ ol.breadcrumb li a {
 }
 
 ol.breadcrumb li.active {
-    color: #ddd;
+    color: #fff;
 }
 
 .main {
@@ -639,7 +639,7 @@ a.scrollup:hover {
 /******** ************ ********/
 
 .card-border {
-    border-left: #39579a 10px solid;
+    border-top: #39579a 10px solid;
 }
 
 .training-card {
