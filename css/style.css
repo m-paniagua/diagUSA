@@ -5,6 +5,10 @@ body {
     color: black;
 }
 
+strong {
+    font-weight: bold;
+}
+
 p {
     font-size: 1.1em;
     font-weight: 300;
@@ -403,6 +407,10 @@ ol.breadcrumb li.active {
     border-radius: 6px;
 } */
 
+#contact img {
+    max-width: 30px;
+}
+
 /******** ********* ********/
 
 /******** partners ********/
@@ -426,7 +434,28 @@ ol.breadcrumb li.active {
 
 .affiliates img {
     max-height: 150px;
-    margin: 0 25px;
+    margin: 0 15px;
+}
+
+/******** ******* ********/
+
+/******** wunder ********/
+
+/******** ****** ********/
+
+#wunderbar {
+    padding: 75px 0;
+}
+
+.wunder-pic {
+    padding: 15px;
+}
+
+.wunder-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
 }
 
 /******** ******* ********/
@@ -760,6 +789,9 @@ a.scrollup:hover {
     .contact-form {
         border-top-left-radius: .25rem;
         border-bottom-left-radius: .25rem;
+    }
+    .affiliates img {
+        margin: 0 50px;
     }
 }
 
