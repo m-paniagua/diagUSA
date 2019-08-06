@@ -806,6 +806,25 @@ a.scrollup:hover {
     .contact-option {
         margin-bottom: 25px;
     }
+    #jumbotron {
+        padding: 75px 0;
+    }
+    .sec-heading {
+        font-size: 35px;
+    }
+    #contact-nav {
+        background-color: white;
+    }
+    .navbar-dark .navbar-brand {
+        color: rgba(0, 0, 0, .5);
+    }
+    .navbar-dark .navbar-toggler {
+        background-color: rgba(0, 0, 0, .5);
+        border-color: rgba(0, 0, 0, .1);
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+    }
 }
 
 .contact-form {
