@@ -407,9 +407,13 @@ ol.breadcrumb li.active {
     border-radius: 6px;
 } */
 
-/* #contact img {
-    max-width: 30px;
-} */
+.contact-logo {
+    max-width: 40px;
+}
+
+.contact-options {
+    margin-bottom: 25px;
+}
 
 /******** ********* ********/
 
@@ -798,6 +802,9 @@ a.scrollup:hover {
 @media only screen and (max-width: 992px) {
     #contact-form {
         margin: 50px 0;
+    }
+    .contact-option {
+        margin-bottom: 25px;
     }
 }
 
