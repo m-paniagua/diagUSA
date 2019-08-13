@@ -75,16 +75,16 @@
                 <div class="col-lg-8">
                     <div class="contact-form">
                         <h3>Send us a message</h3>
-                        <form>
+                        <form action="https://formspree.io/info@diagusa.com" method="POST">
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
-                                    placeholder="Enter name" autofocus>
+                                <input type="text" class="form-control" id="name" name="name"
+                                    aria-describedby="nameHelp" placeholder="Enter name" autofocus required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email address</label>
-                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                                    placeholder="Enter email">
+                                <input type="email" class="form-control" id="email" name="_replyto"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with
                                     anyone
                                     else.
@@ -92,9 +92,12 @@
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" id="message" rows="3"></textarea>
+                                <textarea class="form-control" id="message" name="comments" rows="3"></textarea>
+                                <input type="hidden" name="_next" value="#contact" />
+                                <input type="hidden" name="_subject" value="New submission from DiagUSA.com!" />
+                                <input type="text" name="_gotcha" style="display:none" />
                             </div>
-                            <button type="submit" class="btn btn-outline-primary d-block w-100">Submit</button>
+                            <input type="submit" class="btn btn-outline-primary d-block w-100" value="Submit"></input>
                         </form>
                     </div>
                 </div>
@@ -106,7 +109,7 @@
                         <!-- <h3>Office Address:</h3>
                         <p><i class="fas fa-map-marker-alt"></i> 1249 S. Diamond Bar Blvd. #415 <br> Diamond Bar, CA
                             91765</p> -->
-                        <p><i class="fas fa-phone"></i> 213.268.0436</p>
+                        <p><i class="fas fa-phone"></i> Phone: <br>213.268.0436</p>
                         <p><i class="fas fa-envelope"></i> Email:<br> info@diagusa.org</p>
                     </div>
                 </div>
